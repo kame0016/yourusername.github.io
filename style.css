@@ -3,7 +3,7 @@ html, body {
     padding: 0; 
 }
 nav { 
-    background-color: rgba(255, 0, 0, 0.474);
+    background-color: rgb(255, 0, 0);
     padding: 10px;
     position:fixed; 
     top:0px; 
@@ -14,18 +14,18 @@ a {
     color: #000000;
     text-decoration: none;
     margin-left: 170px;
-    padding: 7px;
+    padding: 4px;
 
 }
 a:hover {
     background-color: aquamarine;
     transition-duration: 0.5s;
-    border-radius: 80px;
+    border-radius: 60px;
 }
  .pageButton {
     background-color: rgb(255, 0, 0);
-    border-radius: 80px;
-    padding: 7px;
+    border-radius: 60px;
+    padding: 4px;
     
   }
   .pageButton:hover {
@@ -42,4 +42,23 @@ a:hover {
     margin-top: 40px;
     font-size: xx-large;
   }
- 
+ #ironCross {
+    padding-top: 225px;
+    z-index: -1;
+ }
+ article {
+    margin-top: 40px;
+    font-size: larger;
+ }
+ ul {
+    margin-top: 40px;
+    font-size: larger;
+ }
+ #ictImage {
+    padding-top: 225px;
+    z-index: -1;
+ }
+ #ictImage2 {
+    padding-top: 225px;
+    z-index: -1;
+ }
