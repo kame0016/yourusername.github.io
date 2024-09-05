@@ -1,3 +1,72 @@
+
 p {
     color: red;
 }
+html, body { 
+    margin: 0; 
+    padding: 0; 
+}
+nav { 
+    background-color: rgb(255, 0, 0);
+    padding: 10px;
+    position:fixed; 
+    top:0px; 
+    margin-bottom: 100px;
+    width: 100%;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+    margin-left: 170px;
+    padding: 4px;
+
+}
+a:hover {
+    background-color: rgb(174, 255, 228);
+    transition-duration: 0.5s;
+    border-radius: 60px;
+}
+ .pageButton {
+    background-color: rgb(255, 255, 255);
+    border-radius: 60px;
+    padding: 4px;
+    
+  }
+  .pageButton:hover {
+    background-color: aquamarine;
+    transition-duration: 0.5s;
+  }
+  body {
+    background-color:rgba(255, 140, 140, 0.468)
+  }
+  .test {
+    padding: 500px;
+  }
+  main { 
+    margin-top: 40px;
+    font-size: xx-large;
+  }
+ #ironCross {
+    z-index: -1;
+    border: 5px solid #000000;
+ }
+ article {
+    margin-top: 40px;
+    font-size: larger;
+ }
+ ul {
+    margin-top: 40px;
+    font-size: larger;
+ }
+ #ictImage {
+    z-index: -1;
+    border: 5px solid #000000;
+ }
+ #ictImage2 {
+    z-index: -1;
+    border:5px solid #000000;
+ }
+ table, th, td { 
+   border: 1px solid;
+ }
+
