@@ -18,12 +18,12 @@ a {
 
 }
 a:hover {
-    background-color: aquamarine;
+    background-color: rgb(174, 255, 228);
     transition-duration: 0.5s;
     border-radius: 60px;
 }
  .pageButton {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
     border-radius: 60px;
     padding: 4px;
     
@@ -61,4 +61,7 @@ a:hover {
  #ictImage2 {
     padding-top: 225px;
     z-index: -1;
+ }
+ table, th, td { 
+   border: 1px solid;
  }
