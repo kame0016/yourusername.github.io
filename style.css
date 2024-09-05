@@ -43,8 +43,8 @@ a:hover {
     font-size: xx-large;
   }
  #ironCross {
-    padding-top: 225px;
     z-index: -1;
+    border: 5px solid #000000;
  }
  article {
     margin-top: 40px;
@@ -55,12 +55,12 @@ a:hover {
     font-size: larger;
  }
  #ictImage {
-    padding-top: 225px;
     z-index: -1;
+    border: 5px solid #000000;
  }
  #ictImage2 {
-    padding-top: 225px;
     z-index: -1;
+    border:5px solid #000000;
  }
  table, th, td { 
    border: 1px solid;
