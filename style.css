@@ -34,7 +34,10 @@ a:hover {
     transition-duration: 0.5s;
   }
   body {
-    background-image: url("C:\Users\denni\Downloads\website background.jpg")
+    background-image:url(media/istockphoto-1343159411-612x612.jpg)
+  }
+  body {
+    background-size: auto;
   }
   .test {
     padding: 500px;
