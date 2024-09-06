@@ -70,4 +70,11 @@ a:hover {
  table, th, td { 
    border: 1px solid;
  }
-
+#faqimage {
+  z-index: -1;
+  border: 5px solid #000000;
+}
+sub {
+  line-height: 8px;
+  font-size: large;
+}
