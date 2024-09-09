@@ -34,7 +34,7 @@ a:hover {
     transition-duration: 0.5s;
   }
   body {
-    background-image:url(media/istockphoto-1343159411-612x612.jpg)
+    background-image:url(media/hoenkie\ plankei.png)
   }
   body {
     background-size: auto;
@@ -81,4 +81,12 @@ sub {
 }
 #hzLogo {
   z-index: -1;
+}
+th {
+  background-color: red;
+  color: white;
+}
+#PCO {
+  width: 18px;
+  height: 18px;
 }
