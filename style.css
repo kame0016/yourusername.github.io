@@ -78,3 +78,6 @@ sub {
   line-height: 8px;
   font-size: large;
 }
+#hzLogo {
+  z-index: -1;
+}
