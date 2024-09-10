@@ -81,6 +81,7 @@ br {
 }
 sub {
   line-break: auto;
+  font-size: large;
 }
 #hzLogo {
   z-index: -1;
