@@ -75,9 +75,12 @@ a:hover {
   z-index: -1;
   border: 5px solid #000000;
 }
+br {
+  line-height: 5px;
+  font-size:xx-large;
+}
 sub {
-  line-height: 8px;
-  font-size: large;
+  line-break: auto;
 }
 #hzLogo {
   z-index: -1;
