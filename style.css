@@ -99,3 +99,22 @@ th {
   width: 18px;
   height: 18px;
 }
+#myProgress {
+  width: 100%;
+  background-color: #f3f3f3;
+  border-radius: 25px;
+  overflow: hidden;
+  height: 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  margin: 20px 0;
+}
+
+#myBar {
+  width: 0%;
+  height: 100%;
+  background-color: #4caf50;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  transition: width 0.3s ease;
+}
