@@ -2,7 +2,7 @@
     <head>
         <link rel="stylesheet" href="style.css">
         <title>Dashboard page</title>
-        
+        <script src="dashboard.js"></script>
         <body>
             <nav>
                 <a href="index.html">HOME PAGE</a>
@@ -17,59 +17,57 @@
             <article>
                 On this page you can see the programme of the first year
             </article>
-            <table>
+            <table id="table">
                 <tr>
                     <th>QUARTILE</th>
-               <th>COURSE</th>
-               <th>ASSESMENT</th>
-               <th>GRADE</th>
-               <th>CREDITS</th>
-               <th>PASSED</th>
+                    <th>COURSE</th>
+                    <th>ASSESSMENT</th>
+                    <th>GRADE</th>
+                    <th>CREDITS</th>
+                    <th>PASSED</th>
                 </tr>
                 <tr>
                     <td rowspan="3">Block 1</td>
                     <td>PCO</td>
-                    <td>Assesment website</td>
+                    <td>Assessment website</td>
                     <td>unknown</td>
                     <td>2.5</td>
-                    <td><input type="checkbox" id="PCO" class="PCO" name="PCO" value="passed">
-                    <label for="PCO">I have passed</label><br></td>
+                    <td><input type="checkbox" id="PCO1" class="PCO" name="PCO" value="passed" data-value="10">
+                    <label for="PCO1">I have passed</label></td>
                 </tr>
                 <tr>
-                    <!--quarter 1-->
                     <td>CSB</td>
                     <td>Written exam</td>
                     <td>unknown</td>
                     <td>5</td>
-                    <td><input type="checkbox" id="PCO" class="PCO" name="PCO" value="passed">
-                        <label for="PCO">I have passed</label><br></td>
+                    <td><input type="checkbox" id="CSB1" class="CSB" name="CSB" value="passed" data-value="10">
+                    <label for="CSB1">I have passed</label></td>
                 </tr>
                 <tr>
-                    <!--quarter 1-->
                     <td>PB</td>
                     <td>Case study exam</td>
                     <td>unknown</td>
                     <td>5</td>
-                    <td><input type="checkbox" id="PCO" class="PCO" name="PCO" value="passed">
-                        <label for="PCO">I have passed</label><br></td>
+                    <td><input type="checkbox" id="PB1" class="PB" name="PB" value="passed" data-value="10">
+                    <label for="PB1">I have passed</label></td>
                 </tr>
                 <tr>
                     <td>Block 2</td>
                     <td>OOP</td>
-                    <td>presentation/written knowledge test</td>
+                    <td>Presentation/written knowledge test</td>
                     <td>unknown</td>
                     <td>10</td>
-                    <td><input type="checkbox" id="PCO" class="PCO" name="PCO" value="passed">
-                        <label for="PCO">I have passed</label><br></td>
+                    <td><input type="checkbox" id="OOP1" class="OOP" name="OOP" value="passed" data-value="10">
+                    <label for="OOP1">I have passed</label></td>
                 </tr>
                 <tr>
                     <td>Block 3</td>
                     <td>Framework 1</td>
-                    <td>written knowledge test and assignment</td>
+                    <td>Written knowledge test and assignment</td>
                     <td>unknown</td>
                     <td>10</td>
-                    <td><input type="checkbox" id="PCO" class="PCO" name="PCO" value="passed">
-                        <label for="PCO">I have passed</label><br></td>
+                    <td><input type="checkbox" id="Framework1" class="Framework" name="Framework" value="passed" data-value="10">
+                    <label for="Framework1">I have passed</label></td>
                 </tr>
                 <tr>
                     <td>Block 4</td>
@@ -77,8 +75,8 @@
                     <td>Portfolio</td>
                     <td>unknown</td>
                     <td>10</td>
-                    <td><input type="checkbox" id="PCO" class="PCO" name="PCO" value="passed">
-                        <label for="PCO">I have passed</label><br></td>
+                    <td><input type="checkbox" id="Framework2" class="Framework" name="Framework" value="passed" data-value="10">
+                    <label for="Framework2">I have passed</label></td>
                 </tr>
                 <tr>
                     <td>Block 3&4</td>
@@ -86,17 +84,17 @@
                     <td>Assignment</td>
                     <td>unknown</td>
                     <td>2.5</td>
-                    <td><input type="checkbox" id="PCO" class="PCO" name="PCO" value="passed">
-                        <label for="PCO">I have passed</label><br></td>
+                    <td><input type="checkbox" id="BCB1" class="BCB" name="BCB" value="passed" data-value="10">
+                    <label for="BCB1">I have passed</label></td>
                 </tr>
                 <tr>
                     <td>Block 1,2,3&4</td>
                     <td>PPD E</td>
-                    <td>Criterionreferenced assessment</td>
+                    <td>Criterion-referenced assessment</td>
                     <td>unknown</td>
                     <td>12.5</td>
-                    <td><input type="checkbox" id="PCO" class="PCO" name="PCO" value="passed">
-                        <label for="PCO">I have passed</label><br></td>
+                    <td><input type="checkbox" id="PPD1" class="PPD" name="PPD" value="passed" data-value="10">
+                    <label for="PPD1">I have passed</label></td>
                 </tr>
                 <tr>
                     <td>Block 2,3&4</td>
@@ -104,17 +102,17 @@
                     <td>Portfolio</td>
                     <td>unknown</td>
                     <td>2.5</td>
-                    <td><input type="checkbox" id="PCO" class="PCO" name="PCO" value="passed">
-                        <label for="PCO">I have passed</label><br></td>
-                </tr>  
+                    <td><input type="checkbox" id="ITP1" class="ITP" name="ITP" value="passed" data-value="10">
+                    <label for="ITP1">I have passed</label></td>
+                </tr>
             </table>
             <aside>
-                <ul>
-                    <li><a href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754" target="_blank" rel="noreferrer noopener"> COURSE EXAMINATION REGULATIONS</a></li>
-                    <li><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf" target="_blank" rel="noreferrer noopener">IMPLIMENTATION REGULATIONS</a></li>
-                    <li><a href="https://glaze-donut-5a5.notion.site/Assignment-Specification-661c5ac5d7494328a58be61d00dd41e4#b1d3461c86e843e5bc2cb5ebc5849937" target="_blank" rel="noreferrer noopener">LEARN ENVIROMENT</a></li>
-                    <li><a href="https://learn.hz.nl/my/" target="_blank" rel="noreferrer noopener">STUDY PROGRESS</a></li>
-                    <li><a href="https://github.com/HZ-HBO-ICT" target="_blank" rel="noreferrer noopener">GITHUB</a></li>
+                <ul class="menu">
+                    <li><span class="span"><a href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754" target="_blank" rel="noreferrer noopener"> COURSE EXAMINATION REGULATIONS</a></span></li>
+                    <li><span class="span"><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf" target="_blank" rel="noreferrer noopener">IMPLIMENTATION REGULATIONS</a></span></li>
+                    <li><span class="span"><a href="https://glaze-donut-5a5.notion.site/Assignment-Specification-661c5ac5d7494328a58be61d00dd41e4#b1d3461c86e843e5bc2cb5ebc5849937" target="_blank" rel="noreferrer noopener">LEARN ENVIROMENT</a></span></li>
+                    <li><span class="span"><a href="https://learn.hz.nl/my/" target="_blank" rel="noreferrer noopener">STUDY PROGRESS</a></span></li>
+                    <li><span class="span"><a href="https://github.com/HZ-HBO-ICT" target="_blank" rel="noreferrer noopener">GITHUB</a></span></li>
                     </ul>
                 </aside>
             <div class="test">
