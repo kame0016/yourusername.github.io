@@ -40,9 +40,6 @@ a:hover {
   body {
     background-size: auto;
   }
-  .test {
-    padding: 500px;
-  }
   main { 
     margin-top: 60px;
     font-size: xx-large;
@@ -123,7 +120,8 @@ th {
   border: 2px solid black;
   border-radius: 15px;
   background-color: rgb(0, 128, 255);
-  width: 30%;
+  width: auto;
+  margin-top: 30%;
 }
 .span {
   position: relative;
