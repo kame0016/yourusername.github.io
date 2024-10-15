@@ -1,126 +1,148 @@
-<html> 
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <title>Dashboard page</title>
-        <script src="dashboard.js"></script>
-        <body>
-            <nav>
-                <a href="index.html">HOME PAGE</a>
-                <a href="profile.html">PROFILE PAGE</a>
-                <a class="pageButton" href="dashboard.html">DASHBOARD</a>
-                <a href="faq.html">FAQ</a>
-                <a href="blog.html	">BLOG</a>
-            </nav>
-            <main>
-                DASHBOARD 
-            </main>
-            <article>
-                On this page you can see the programme of the first year
-            </article>
-            <table id="table">
-                <tr>
-                    <th>QUARTILE</th>
-                    <th>COURSE</th>
-                    <th>ASSESSMENT</th>
-                    <th>GRADE</th>
-                    <th>CREDITS</th>
-                    <th>PASSED</th>
-                </tr>
-                <tr>
-                    <td rowspan="3">Block 1</td>
-                    <td>PCO</td>
-                    <td>Assessment website</td>
-                    <td>unknown</td>
-                    <td>2.5</td>
-                    <td><input type="checkbox" id="PCO1" class="PCO" name="PCO" value="passed" data-value="4.17">
-                    <label for="PCO1">I have passed</label></td>
-                </tr>
-                <tr>
-                    <td>CSB</td>
-                    <td>Written exam</td>
-                    <td>unknown</td>
-                    <td>5</td>
-                    <td><input type="checkbox" id="CSB1" class="CSB" name="CSB" value="passed" data-value="8.33">
-                    <label for="CSB1">I have passed</label></td>
-                </tr>
-                <tr>
-                    <td>PB</td>
-                    <td>Case study exam</td>
-                    <td>unknown</td>
-                    <td>5</td>
-                    <td><input type="checkbox" id="PB1" class="PB" name="PB" value="passed" data-value="8.33">
-                    <label for="PB1">I have passed</label></td>
-                </tr>
-                <tr>
-                    <td>Block 2</td>
-                    <td>OOP</td>
-                    <td>Presentation/written knowledge test</td>
-                    <td>unknown</td>
-                    <td>10</td>
-                    <td><input type="checkbox" id="OOP1" class="OOP" name="OOP" value="passed" data-value="16.67">
-                    <label for="OOP1">I have passed</label></td>
-                </tr>
-                <tr>
-                    <td>Block 3</td>
-                    <td>Framework 1</td>
-                    <td>Written knowledge test and assignment</td>
-                    <td>unknown</td>
-                    <td>10</td>
-                    <td><input type="checkbox" id="Framework1" class="Framework" name="Framework" value="passed" data-value="16.67">
-                    <label for="Framework1">I have passed</label></td>
-                </tr>
-                <tr>
-                    <td>Block 4</td>
-                    <td>Framework 2</td>
-                    <td>Portfolio</td>
-                    <td>unknown</td>
-                    <td>10</td>
-                    <td><input type="checkbox" id="Framework2" class="Framework" name="Framework" value="passed" data-value="16.67">
-                    <label for="Framework2">I have passed</label></td>
-                </tr>
-                <tr>
-                    <td>Block 3&4</td>
-                    <td>BCB</td>
-                    <td>Assignment</td>
-                    <td>unknown</td>
-                    <td>2.5</td>
-                    <td><input type="checkbox" id="BCB1" class="BCB" name="BCB" value="passed" data-value="4.17">
-                    <label for="BCB1">I have passed</label></td>
-                </tr>
-                <tr>
-                    <td>Block 1,2,3&4</td>
-                    <td>PPD E</td>
-                    <td>Criterion-referenced assessment</td>
-                    <td>unknown</td>
-                    <td>12.5</td>
-                    <td><input type="checkbox" id="PPD1" class="PPD" name="PPD" value="passed" data-value="20.83">
-                    <label for="PPD1">I have passed</label></td>
-                </tr>
-                <tr>
-                    <td>Block 2,3&4</td>
-                    <td>IT Personality</td>
-                    <td>Portfolio</td>
-                    <td>unknown</td>
-                    <td>2.5</td>
-                    <td><input type="checkbox" id="ITP1" class="ITP" name="ITP" value="passed" data-value="4.17">
-                    <label for="ITP1">I have passed</label></td>
-                </tr>
-            </table>
-            <div id="myProgress">
-                <div id="myBar"></div>
-              </div>
-            <aside>
-                <ul class="menu">
-                    <li><span class="span"><a href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754" target="_blank" rel="noreferrer noopener"> COURSE EXAMINATION REGULATIONS</a></span></li>
-                    <li><span class="span"><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf" target="_blank" rel="noreferrer noopener">IMPLIMENTATION REGULATIONS</a></span></li>
-                    <li><span class="span"><a href="https://glaze-donut-5a5.notion.site/Assignment-Specification-661c5ac5d7494328a58be61d00dd41e4#b1d3461c86e843e5bc2cb5ebc5849937" target="_blank" rel="noreferrer noopener">LEARN ENVIROMENT</a></span></li>
-                    <li><span class="span"><a href="https://learn.hz.nl/my/" target="_blank" rel="noreferrer noopener">STUDY PROGRESS</a></span></li>
-                    <li><span class="span"><a href="https://github.com/HZ-HBO-ICT" target="_blank" rel="noreferrer noopener">GITHUB</a></span></li>
-                    </ul>
-                </aside>
-            <div>
-                <img id="hzLogo" src="media/hz-logo.png" alt="hzLogo" width="auto" height="250" style="position: absolute; right: 40px; top: 80px;">
-              </div>
-        </body>
-    </head>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Dashboard page</title>
+    <script src="dashboard.js"></script>
+
+<body>
+    <nav>
+        <a href="index.html">HOME PAGE</a>
+        <a href="profile.html">PROFILE PAGE</a>
+        <a class="pageButton" href="dashboard.html">DASHBOARD</a>
+        <a href="faq.html">FAQ</a>
+        <a href="blog.html	">BLOG</a>
+    </nav>
+    <main>
+        DASHBOARD
+    </main>
+    <article>
+        On this page you can see the programme of the first year
+    </article>
+    <table id="table">
+        <tr>
+            <th>QUARTILE</th>
+            <th>COURSE</th>
+            <th>ASSESSMENT</th>
+            <th>GRADE</th>
+            <th>CREDITS</th>
+            <th>PASSED</th>
+        </tr>
+        <tr>
+            <td rowspan="3">Block 1</td>
+            <td>PCO</td>
+            <td>Assessment website</td>
+            <td>unknown</td>
+            <td>2.5</td>
+            <td><input type="checkbox" id="PCO1" class="PCO" name="PCO" value="passed" data-value="4.17">
+                <label for="PCO1">I have passed</label>
+            </td>
+        </tr>
+        <tr>
+            <td>CSB</td>
+            <td>Written exam</td>
+            <td>unknown</td>
+            <td>5</td>
+            <td><input type="checkbox" id="CSB1" class="CSB" name="CSB" value="passed" data-value="8.33">
+                <label for="CSB1">I have passed</label>
+            </td>
+        </tr>
+        <tr>
+            <td>PB</td>
+            <td>Case study exam</td>
+            <td>unknown</td>
+            <td>5</td>
+            <td><input type="checkbox" id="PB1" class="PB" name="PB" value="passed" data-value="8.33">
+                <label for="PB1">I have passed</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Block 2</td>
+            <td>OOP</td>
+            <td>Presentation/written knowledge test</td>
+            <td>unknown</td>
+            <td>10</td>
+            <td><input type="checkbox" id="OOP1" class="OOP" name="OOP" value="passed" data-value="16.67">
+                <label for="OOP1">I have passed</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Block 3</td>
+            <td>Framework 1</td>
+            <td>Written knowledge test and assignment</td>
+            <td>unknown</td>
+            <td>10</td>
+            <td><input type="checkbox" id="Framework1" class="Framework" name="Framework" value="passed"
+                    data-value="16.67">
+                <label for="Framework1">I have passed</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Block 4</td>
+            <td>Framework 2</td>
+            <td>Portfolio</td>
+            <td>unknown</td>
+            <td>10</td>
+            <td><input type="checkbox" id="Framework2" class="Framework" name="Framework" value="passed"
+                    data-value="16.67">
+                <label for="Framework2">I have passed</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Block 3&4</td>
+            <td>BCB</td>
+            <td>Assignment</td>
+            <td>unknown</td>
+            <td>2.5</td>
+            <td><input type="checkbox" id="BCB1" class="BCB" name="BCB" value="passed" data-value="4.17">
+                <label for="BCB1">I have passed</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Block 1,2,3&4</td>
+            <td>PPD E</td>
+            <td>Criterion-referenced assessment</td>
+            <td>unknown</td>
+            <td>12.5</td>
+            <td><input type="checkbox" id="PPD1" class="PPD" name="PPD" value="passed" data-value="20.83">
+                <label for="PPD1">I have passed</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Block 2,3&4</td>
+            <td>IT Personality</td>
+            <td>Portfolio</td>
+            <td>unknown</td>
+            <td>2.5</td>
+            <td><input type="checkbox" id="ITP1" class="ITP" name="ITP" value="passed" data-value="4.17">
+                <label for="ITP1">I have passed</label>
+            </td>
+        </tr>
+    </table>
+    <div id="myProgress">
+        <div id="myBar"></div>
+    </div>
+    <aside>
+        <ul class="menu">
+            <li><span class="span"><a href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754" target="_blank"
+                        rel="noreferrer noopener"> COURSE EXAMINATION REGULATIONS</a></span></li>
+            <li><span class="span"><a
+                        href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf"
+                        target="_blank" rel="noreferrer noopener">IMPLIMENTATION REGULATIONS</a></span></li>
+            <li><span class="span"><a
+                        href="https://glaze-donut-5a5.notion.site/Assignment-Specification-661c5ac5d7494328a58be61d00dd41e4#b1d3461c86e843e5bc2cb5ebc5849937"
+                        target="_blank" rel="noreferrer noopener">LEARN ENVIROMENT</a></span></li>
+            <li><span class="span"><a href="https://learn.hz.nl/my/" target="_blank" rel="noreferrer noopener">STUDY
+                        PROGRESS</a></span></li>
+            <li><span class="span"><a href="https://github.com/HZ-HBO-ICT" target="_blank"
+                        rel="noreferrer noopener">GITHUB</a></span></li>
+        </ul>
+    </aside>
+    <div>
+        <img id="hzLogo" src="media/hz-logo.png" alt="hzLogo" width="auto" height="250"
+            style="position: absolute; right: 40px; top: 80px;">
+    </div>
+</body>
+</head>
+
 </html>

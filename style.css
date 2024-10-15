@@ -1,109 +1,134 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 
-html, body { 
-    margin: 0; 
-    padding: 0; 
+/* css for the navigation bar */
+nav {
+  border: 2px solid black;
+  background-color: rgb(0, 128, 255);
+  padding: 10px;
+  position: fixed;
+  top: 0px;
+  margin-bottom: 100px;
+  width: 100%;
 }
-nav { 
-    border: 2px solid black;
-    background-color: rgb(0, 128, 255);
-    padding: 10px;
-    position:fixed; 
-    top:0px; 
-    margin-bottom: 100px;
-    width: 100%;
-}
+
 a {
-    color: #000000;
-    text-decoration: none;
-    margin-left: 200px;
-    padding: 4px;
+  color: #000000;
+  text-decoration: none;
+  margin-left: 200px;
+  padding: 4px;
 
 }
+
 a:hover {
-    background-color: rgb(174, 255, 228);
-    transition-duration: 0.5s;
-    border-radius: 60px;
+  background-color: rgb(174, 255, 228);
+  transition-duration: 0.5s;
+  border-radius: 60px;
 }
- .pageButton {
-    background-color: rgb(255, 255, 255);
-    border-radius: 60px;
-    padding: 4px;
-    
-  }
-  .pageButton:hover {
-    background-color: aquamarine;
-    transition-duration: 0.5s;
-  }
-  body {
-    background-image:url(media/hoenkie\ plankei.png)
-  }
-  body {
-    background-size: auto;
-  }
-  main { 
-    margin-top: 60px;
-    font-size: xx-large;
-    text-align: center;
-    border: 2px solid black;
-    background-color: rgb(0, 255, 238);
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-  }
- #ironCross {
-    z-index: -1;
-    border: 5px solid #000000;
- }
- article {
-    margin-top: 40px;
-    font-size: larger;
- }
- ul {
-    margin-top: 40px;
-    font-size: larger;
- }
- #ictImage {
-    z-index: -1;
-    border: 5px solid #000000;
- }
- #ictImage2 {
-    z-index: -1;
-    border:5px solid #000000;
- }
- table, th, td { 
-   border: 1px solid black;
-   border-collapse: collapse;
- }
+
+.pageButton {
+  background-color: rgb(255, 255, 255);
+  border-radius: 60px;
+  padding: 4px;
+
+}
+
+.pageButton:hover {
+  background-color: aquamarine;
+  transition-duration: 0.5s;
+}
+
+/* css for the general parts of the website */
+body {
+  background-image: url(media/hoenkie\ plankei.png)
+}
+
+body {
+  background-size: auto;
+}
+
+main {
+  margin-top: 60px;
+  font-size: xx-large;
+  text-align: center;
+  border: 2px solid black;
+  background-color: rgb(0, 255, 238);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ironCross {
+  z-index: -1;
+  border: 5px solid #000000;
+}
+
+article {
+  margin-top: 40px;
+  font-size: larger;
+}
+
+ul {
+  margin-top: 40px;
+  font-size: larger;
+}
+
+#ictImage {
+  z-index: -1;
+  border: 5px solid #000000;
+}
+
+#ictImage2 {
+  z-index: -1;
+  border: 5px solid #000000;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
 #faqimage {
   z-index: -1;
   border: 5px solid #000000;
 }
+
 br {
   line-height: 5px;
-  font-size:xx-large;
+  font-size: xx-large;
 }
+
 sub {
   line-break: auto;
   font-size: large;
 }
+
 #hzLogo {
   z-index: -1;
 }
+
 th {
   background-color: rgb(0, 128, 255);
   color: white;
 }
+
 #PCO {
   width: 18px;
   height: 18px;
 }
+
 #myProgress {
   width: 100%;
   background-color: #f3f3f3;
   border-radius: 25px;
   overflow: hidden;
   height: 30px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   margin: 20px 0;
 }
 
@@ -116,6 +141,7 @@ th {
   color: white;
   transition: width 0.3s ease;
 }
+
 .menu {
   border: 2px solid black;
   border-radius: 15px;
@@ -123,11 +149,13 @@ th {
   width: auto;
   margin-top: 30%;
 }
+
 .span {
   position: relative;
   left: -160px;
 }
-p { 
+
+p {
   border: 2px solid black;
   border-radius: 15px;
   width: 50%;
