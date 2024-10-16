@@ -157,7 +157,7 @@ th {
   color: black;
 }
 
-p {
+.textIndex {
   border: 2px solid black;
   border-radius: 15px;
   width: 50%;
@@ -170,4 +170,20 @@ p {
   background-color: rgb(0, 255, 238);
   margin-left: -100px;
   font-size: larger;
+}
+.blogBottomLeft {
+  margin-left: 770px;
+  margin-bottom: 400px;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 42%;
+  background-color: rgb(0, 255, 238);
+}
+.blogTopLeft {
+  margin-left: 770px;
+  margin-top: -380px;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 42%;
+  background-color: rgb(0, 255, 238);
 }
