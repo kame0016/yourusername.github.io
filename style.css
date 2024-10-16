@@ -148,7 +148,7 @@ th {
   border-radius: 15px;
   background-color: rgb(0, 128, 255);
   width: auto;
-  margin-top: 30%;
+  margin-top: 10%;
 }
 
 .span {
@@ -171,19 +171,33 @@ th {
   margin-left: -100px;
   font-size: larger;
 }
-.blogBottomLeft {
+.blogBottomRight {
   margin-left: 770px;
-  margin-bottom: 400px;
+  margin-bottom: 200px;
   border: 2px solid black;
   border-radius: 15px;
   width: 42%;
   background-color: rgb(0, 255, 238);
 }
-.blogTopLeft {
+.blogTopRight {
   margin-left: 770px;
-  margin-top: -380px;
+  margin-top: -382px;
   border: 2px solid black;
   border-radius: 15px;
   width: 42%;
   background-color: rgb(0, 255, 238);
+}
+.menuFAQ {
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: rgb(0, 128, 255);
+  width: auto;
+  margin-top: 30%;
+}
+.menuIndex {
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: rgb(0, 128, 255);
+  width: auto;
+  margin-top: 20%;
 }
