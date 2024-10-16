@@ -16,7 +16,7 @@ nav {
 }
 
 a {
-  color: #000000;
+  color: white;
   text-decoration: none;
   margin-left: 200px;
   padding: 4px;
@@ -24,16 +24,17 @@ a {
 }
 
 a:hover {
+  color: black;
   background-color: rgb(174, 255, 228);
   transition-duration: 0.5s;
   border-radius: 60px;
 }
 
-.pageButton {
+.pageButton { 
+  color: black;
   background-color: rgb(255, 255, 255);
   border-radius: 60px;
   padding: 4px;
-
 }
 
 .pageButton:hover {
@@ -153,10 +154,20 @@ th {
 .span {
   position: relative;
   left: -160px;
+  color: black;
 }
 
 p {
   border: 2px solid black;
   border-radius: 15px;
   width: 50%;
+  background-color: rgb(0, 255, 238);
+} 
+.blogList {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 35%;
+  background-color: rgb(0, 255, 238);
+  margin-left: -100px;
+  font-size: larger;
 }
