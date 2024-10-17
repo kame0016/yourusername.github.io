@@ -152,6 +152,14 @@ main {
   width: auto;
   margin-top: 20%;
 }
+.opinionHomePage {
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgb(0, 128, 255);
+  width: 30%;
+  font-size: larger;
+  margin-top: -260px;
+}
 
 /*css for parents and children*/
 article {
